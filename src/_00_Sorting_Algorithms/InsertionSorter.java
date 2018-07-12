@@ -19,9 +19,10 @@ public class InsertionSorter extends Sorter {
 					array[j - 1] = array[j];
 					array[j] = holder;
 				}
+				display.updateDisplay();
 			}
 		}
-		display.updateDisplay();
+
 		// 2. make another for loop that starts at i and counts down
 		// while j is greater than 0
 		// 3. if the element at j is less than the element at j - 1,

@@ -21,8 +21,9 @@ public class SelectionSorter extends Sorter {
 			int keeper = array[index];
 			array[index] = array[i];
 			array[i] = keeper;
+			display.updateDisplay();
 		}
-		display.updateDisplay();
+
 		// 2. create an integer called index and set it equal to i
 		// 3. make another for loop that starts at i + 1 and
 		// goes through the entire array
